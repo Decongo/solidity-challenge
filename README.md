@@ -1,13 +1,13 @@
 # Staker and RewardToken smart contracts
 This repo contains my implementation of the Staker and RewardToken smart contracts as described in the challenge specs.
 
-For the RewardToken contract, I used an ERC20 token that I previously implemented as a template. For this project, I added the following functions and data members:
+For the RewardToken contract, I used an [ERC20 token that I previously implemented](https://github.com/Decongo/blockchain-developer-bootcamp/blob/master/src/contracts/Token.sol) as a template. For this project, I added the following functions and data members:
 * `minters`
 * `addMinter()`
 * `mint()`
 * `isMinter()`
 
-For the Staker contract, I used the `depositToken` and `withdrawToken` functions from a decentralized exchange contract that I previously implmented. For this project, I added the following functions and data members:
+For the Staker contract, I used the `depositToken` and `withdrawToken` functions from a [decentralized exchange contract that I previously implmented](https://github.com/Decongo/blockchain-developer-bootcamp/blob/master/src/contracts/Exchange.sol). For this project, I added the following functions and data members:
 * `stakers`
 * `blockNumber`
 * `minter`
